@@ -1,0 +1,64 @@
+body {
+    position: relative; 
+    margin: 0;
+    height: 100vh;
+    background-color: #232f3e;
+  }
+  
+  .container {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #232f3e;
+    padding: 40px;
+    color: #ffffff;
+    max-width: 800px; 
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px; 
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  h2 {
+    font-size: 100px; 
+    margin-bottom: 20px; 
+  }
+  
+  img {
+    max-width: 100%; /* Ensure images scale within their containers */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-size: 22px; /* Increase font size for subheadings */
+  }
+  
+  .list-group {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    padding: 15px; /* Increase padding for better spacing */
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Increase margin between items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-group-item:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last item */
+  }
+  
